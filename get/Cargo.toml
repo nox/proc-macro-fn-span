@@ -1,0 +1,14 @@
+[package]
+name = "get"
+version = "0.1.0"
+authors = ["Anthony Ramine <nox@nox.paris>"]
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro-error = "1"
+proc-macro2 = "1"
+quote = "1"
+syn = "1"
